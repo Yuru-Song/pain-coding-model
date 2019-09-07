@@ -96,7 +96,7 @@ Figure A left, evoked, change Pi_1 = Pi_3 , while Pi_2 = 1
 #		for j in range(smpl_nmbr_Pi_13):
 #			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1[j], Pi_2, Pi_3[j], z_threshold, evkd_amp[i], z_init, isplot, i, 0, '')
 #
-#sio.savemat('figure_5a1.mat',{'sum_u':sum_u,'sum_v':sum_v,'evkd_amp':evkd_amp,'Pi_2':Pi_2})	
+#sio.savemat('figure_5a.mat',{'sum_u':sum_u,'sum_v':sum_v,'evkd_amp':evkd_amp,'Pi_2':Pi_2})	
 
 
 '''
@@ -123,7 +123,7 @@ Figure 5 A right, evoked, change Pi_2, while Pi_1 = Pi_3 = 1
 # 	for i in range(smpl_nmbr):
 # 		for j in range(smpl_nmbr_Pi_13):
 # 			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1, Pi_2[j], Pi_3, z_threshold, evkd_amp[i], z_init, isplot, i, 0, '')
-# sio.savemat('figure_5a2.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
+# sio.savemat('figure_5b.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
 
 
 '''
@@ -150,7 +150,7 @@ Figure 5 B left, spontaneous, change Pi_1 = Pi_3, while Pi_2 = 1
 # 	for i in range(smpl_nmbr_z_init):
 # 		for j in range(smpl_nmbr_Pi_13):
 # 			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1[j], Pi_2, Pi_3[j], z_threshold, evkd_amp, z_init[i], isplot, i, 0, '')
-# sio.savemat('figure_5b1.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
+# sio.savemat('figure_5c.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
 
 
 '''
@@ -177,7 +177,7 @@ Figure 5 B right, spontaneous, change Pi_2, while Pi_1 = Pi_3 = 1
 # 	for i in range(smpl_nmbr_z_init):
 # 		for j in range(smpl_nmbr_Pi_2):
 # 			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1, Pi_2[j], Pi_3, z_threshold, evkd_amp, z_init[i], isplot, i, 0, '')
-# sio.savemat('figure_5b2.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
+# sio.savemat('figure_5d.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
 
 
 '''
@@ -204,7 +204,7 @@ Figure 5 C left, placebo, change  Pi_1 = Pi_3 , while Pi_2 = 1
 # 	for i in range(smpl_nmbr_z_init):
 # 		for j in range(smpl_nmbr_Pi_13):
 # 			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1[j], Pi_2, Pi_3[j], z_threshold, evkd_amp, z_init[i], isplot, i, 0, '')
-# sio.savemat('figure_5c1.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
+# sio.savemat('figure_5e.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
 
 
 '''
@@ -233,7 +233,7 @@ Figure 5 C right, placebo, change Pi_2, while Pi_1 = Pi_3 = 1
 # 		for j in range(smpl_nmbr_Pi_2):
 # 			sum_u[0,k,i,j], sum_v[0,k,i,j], wthdrw_time = single_trial(Tau_1, Tau_2, Tau_3, Tau_5, a, Pi_1, Pi_2[j], Pi_3, z_threshold, evkd_amp, z_init[i], isplot, i, 0, '')
 
-# sio.savemat('figure_5c2.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
+# sio.savemat('figure_5f.mat',{'sum_u':sum_u,'sum_v':sum_v,'z_init':z_init,'Pi_2':Pi_2})	
 
 
 
